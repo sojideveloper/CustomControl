@@ -12,6 +12,8 @@
 		C0CD49621CB74C6A0086FBAC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C0CD49601CB74C6A0086FBAC /* Main.storyboard */; };
 		C0CD49641CB74C6A0086FBAC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C0CD49631CB74C6A0086FBAC /* Assets.xcassets */; };
 		C0CD49671CB74C6A0086FBAC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C0CD49651CB74C6A0086FBAC /* LaunchScreen.storyboard */; };
+		C0CD496F1CB74CA70086FBAC /* Knob.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0CD496E1CB74CA70086FBAC /* Knob.swift */; };
+		C0CD49711CB74D020086FBAC /* KnobRenderer.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0CD49701CB74D020086FBAC /* KnobRenderer.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		C0CD49631CB74C6A0086FBAC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C0CD49661CB74C6A0086FBAC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C0CD49681CB74C6A0086FBAC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C0CD496E1CB74CA70086FBAC /* Knob.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Knob.swift; sourceTree = "<group>"; };
+		C0CD49701CB74D020086FBAC /* KnobRenderer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KnobRenderer.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,6 +42,8 @@
 		C0CD49501CB74C6A0086FBAC = {
 			isa = PBXGroup;
 			children = (
+				C0CD49701CB74D020086FBAC /* KnobRenderer.swift */,
+				C0CD496E1CB74CA70086FBAC /* Knob.swift */,
 				C0CD495B1CB74C6A0086FBAC /* CustomControl */,
 				C0CD495A1CB74C6A0086FBAC /* Products */,
 			);
@@ -136,6 +142,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				C0CD495F1CB74C6A0086FBAC /* ViewController.swift in Sources */,
+				C0CD496F1CB74CA70086FBAC /* Knob.swift in Sources */,
+				C0CD49711CB74D020086FBAC /* KnobRenderer.swift in Sources */,
 				C0CD495D1CB74C6A0086FBAC /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
